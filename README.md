@@ -61,27 +61,40 @@ spring-petclinic/
 └── README.md
 
 ## 📷 Screenshots
+
 Jenkins Pipeline-
+
 ![image](https://github.com/user-attachments/assets/a6bc7e82-cfd6-4193-91fb-c381174d24c4)
 
 Deployed application is runniing on nodeport - http://10.0.0.10:31090/
+
 ![image](https://github.com/user-attachments/assets/110bfc4e-6c11-49d3-874d-ceef552a9b5d)
 
 SonarQube code quality on http://localhost:9000/dashboard?id=petclinic
+
 ![image](https://github.com/user-attachments/assets/f3d9294a-54c1-4863-ae88-7b8bdf8b5723)
 
 Docker images on Docker Desktop. Connected DockerHub to Docker Desktop-
+
 ![image](https://github.com/user-attachments/assets/87f5c484-798f-4436-9dd7-71f83a53282a)
 
 Builds on Docker Desktop-
+
 ![image](https://github.com/user-attachments/assets/89bae0b3-fbe3-47ca-af7f-2cb3b073896a)
 
 Containers on Docker Desktop-
+
 ![image](https://github.com/user-attachments/assets/f5441c0f-de15-46cb-8ae5-e77404edeaa5)
 
 Kubernetes cluster has been setup on 3 Vagrant VM(s) - 1 Master and 2 Worker Nodes. And to allow Jenkins(running on my local machine) to connect to K8s(running on Vagrant VM) had to forward Kubernetes API server port by adding this line of code in our Vagrantfile "controlplane.vm.network "forwarded_port", guest: 6443, host: 6443, auto_correct: true" then create a "C:\Users\<my-username>\.kube\config" file from config file of Master Node (cat ~/.kube/config).
 
 ![image](https://github.com/user-attachments/assets/bbd620b8-6271-492f-8f0c-d956ef68d673)
+
+Oracle VirtualBox snapshot of Kubernetes setup on ly local machine-
+
+![image](https://github.com/user-attachments/assets/01938da6-6a8f-46b4-8ec2-21891f835cc3)
+
+---
 
 ## 🙌 Acknowledgements
 
