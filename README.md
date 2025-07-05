@@ -30,6 +30,19 @@ This project demonstrates an end-to-end CI/CD pipeline for the popular **Spring 
 
 ---
 
+## 🚀 Files I have added in the original repository-
+
+Inside root directory-
+Vagrantfile
+Jenkinsfile
+Dockerfile
+
+Inside /K8s directory-
+service.yaml
+deployment.yaml
+
+---
+
 ## 🧪 Application Access
 
 Once deployed, the application is accessible at: http://<Node-IP>:<NodePort>
